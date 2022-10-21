@@ -1,0 +1,20 @@
+/*
+
+* Assets in scene:
+* Ground/plane texture; tiled
+* street lamp artifact: change lamp glass to transparent
+* lamp light: particle system (downloaded fire from asset store + changed sizing etc.)
+* lamp light: point light that throws light
+* clouds: asset store
+
+Day night cycle:
+* set directional light as source of light in environment
+* set directional light as sun 
+* set directional light 2 as moon
+* combine in same gameobject DayNightCycle (for organization)
+* daynight cycle script - set proper public variables attaching both lights 
+* lights can have different colors
+* lights can have color intensity as an animation component
+* set "moon" light to be opposite angle of "sun" light
+
+*/
